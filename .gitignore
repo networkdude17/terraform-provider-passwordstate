@@ -19,3 +19,9 @@
 
 # Go workspace file
 go.work
+
+
+# Go and Terraform Testing Files
+examples/provider-install-verification/
+internal/provider/password_data_source_test.go
+internal/provider/provider_test.go
