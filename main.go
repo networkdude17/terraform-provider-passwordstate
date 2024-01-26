@@ -8,7 +8,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"terraform-provider-passwordstate/internal/provider"
+	"github.com/networkdude17/terraform-provider-passwordstate/internal/provider"
 )
 
 // Run "go generate" to format example terraform files and generate the docs for the registry/website
@@ -38,7 +38,7 @@ func main() {
 
 	opts := providerserver.ServeOpts{
 		// TODO: Update this string with the published name of your provider.
-		Address: "networkdude17.com/testing/passwordstate",
+		Address: "registry.terraform.io/providers/networkdude17",
 		Debug:   debug,
 	}
 
